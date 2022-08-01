@@ -17,3 +17,5 @@ const BookDetail = ({BookName,Tagline,Authors}: any) => {
         </Grid>
     </div>
 }
+
+export default BookDetail
