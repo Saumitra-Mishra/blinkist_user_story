@@ -1,9 +1,13 @@
+import { Link } from "@mui/material";
 import Card from "@mui/material/Card";
 
-
-
 const CardComponent = () => {
-    return  <Card></Card>
-}
+  //Link Card to BookDetail on Click
+  return (
+    <Link>
+      <Card></Card>
+    </Link>
+  );
+};
 
 export default CardComponent;

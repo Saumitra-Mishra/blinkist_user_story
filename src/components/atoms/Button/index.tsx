@@ -1,7 +1,10 @@
+import { Button, ButtonProps } from "@mui/material";
 
+interface Props extends ButtonProps {
 
-const Button = () => {
-    return <div></div>
+}
+const ButtonComponent = ({}: Props) => {
+    return <Button></Button>
 }
 
-export default Button;
+export default ButtonComponent;

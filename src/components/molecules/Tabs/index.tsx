@@ -1,7 +1,8 @@
+import { Tabs } from "@mui/material";
 
 
-const Tabs = () => {
-    return <Tabs></Tabs>
+const TabComponent = ({data}:any) => {
+    return <Tabs value={0}>{/* map the data */}</Tabs>
 }
 
-export default Tabs;
+export default TabComponent;
